@@ -1,4 +1,6 @@
-# Aprendizaje profundo: de la idea a la ecuación, y de la ecuación al código
+# Aprendizaje profundo con PyTorch
+
+**Intuición, teoría y código.**
 
 Un curso abierto para quien quiere entender el aprendizaje profundo, no solo usarlo. Cada
 concepto se explica primero con una idea, después con su ecuación y finalmente con el código
@@ -26,12 +28,12 @@ Cada lección construye el mismo concepto desde varios ángulos:
 | Paso | Qué encuentras |
 |---|---|
 | 1. Intuición | Para qué sirve y cómo pensarlo, sin fórmulas |
-| 2. Matemática | La notación y la derivación, paso a paso |
+| 2. Matemática | Cada fórmula paso a paso, con el significado de sus símbolos y para qué sirve |
 | 3. Desde cero | Una implementación en NumPy, para comprobar que no hay magia |
 | 4. Con el framework | Lo mismo en PyTorch, comparado con la versión desde cero |
 | 5. Experimenta | Parámetros que puedes mover para observar qué cambia |
 | 6. Errores comunes | Lo que suele salir mal y cómo detectarlo |
-| 7. Ejercicios | Práctica guiada, con soluciones aparte |
+| 7. Ejercicios | Práctica guiada al final de cada lección |
 | 8. Para profundizar | El capítulo exacto de las referencias |
 
 ## Cómo empezar
