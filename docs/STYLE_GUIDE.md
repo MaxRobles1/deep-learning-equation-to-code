@@ -15,15 +15,33 @@ El vocabulario está en [GLOSSARY.md](GLOSSARY.md) y la notación en [NOTATION.m
 ## Estructura de cada lección
 
 1. **Intuición:** para qué sirve y cómo pensarlo, sin fórmulas.
-2. **Matemática:** con la notación del curso; cada paso de una derivación se justifica.
+2. **Matemática:** con la notación del curso; cada paso de una derivación se justifica y cada
+   fórmula se explica como indica la sección [Fórmulas](#fórmulas).
 3. **Desde cero:** implementación en NumPy.
 4. **Con PyTorch:** el mismo cálculo con el framework, comparado numéricamente con la versión
    desde cero.
 5. **Experimenta:** al menos un parámetro que la persona pueda cambiar para observar el efecto.
 6. **Errores comunes:** qué suele salir mal y cómo detectarlo.
-7. **Ejercicios:** las soluciones van en un notebook aparte.
+7. **Ejercicios:** se publican sin solución; las soluciones son material privado del
+   instructor y no se versionan en este repositorio.
 8. **Para profundizar:** libro y capítulo, y el artículo original
    ([REFERENCES.md](REFERENCES.md)).
+
+## Fórmulas
+
+Toda fórmula se explica **inmediatamente después** de escribirla, con tres bloques:
+
+1. **Donde:** el significado de cada símbolo, en el orden en que aparece.
+2. **Qué hace:** la operación, en palabras.
+3. **Para qué se usa:** su papel en la red o en el entrenamiento.
+
+Cuando la fórmula define una herramienta entre varias alternativas (funciones de activación,
+de pérdida, optimizadores…), se agregan dos bloques más:
+
+4. **Cuándo usarla:** en qué situaciones conviene.
+5. **Limitaciones:** sus problemas conocidos y qué se usa en su lugar.
+
+Si hay varias alternativas, al final se resumen en una tabla comparativa.
 
 ## Notebooks
 

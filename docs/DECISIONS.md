@@ -59,3 +59,16 @@ Registro de las decisiones del proyecto: qué se decidió, qué alternativa se d
 - **Decisión:** Maximino Jiménez Robles es el único autor de los commits; la asistencia de
   Claude Code se declara en la sección "Herramientas utilizadas" del README.
 - **Motivo:** el autor revisa y aprueba todo el contenido y responde por él.
+
+### D-010 · 2026-11-18 · Ejercicios sin soluciones públicas
+- **Decisión:** los ejercicios de las lecciones se publican sin solución; las soluciones se
+  guardan como material privado del instructor (`private/`, fuera de Git).
+- **Alternativa descartada:** publicar soluciones de práctica en notebooks aparte.
+- **Motivo:** los ejercicios por tema forman parte de la evaluación (trabajo continuo, 35 %).
+
+### D-011 · 2026-11-18 · Cada fórmula se explica después de escribirla
+- **Decisión:** toda fórmula va seguida de "Donde", "Qué hace" y "Para qué se usa"; las que
+  definen una herramienta entre alternativas agregan "Cuándo usarla" y "Limitaciones"
+  ([STYLE_GUIDE.md](STYLE_GUIDE.md)). Las lecciones no indican tiempo estimado.
+- **Motivo:** una fórmula sin explicación solo sirve a quien ya la entiende. El tiempo de
+  lectura es subjetivo, y el de ejecución ya lo garantiza el CI (menos de 5 minutos).
