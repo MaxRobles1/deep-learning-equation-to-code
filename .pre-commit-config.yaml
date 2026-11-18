@@ -29,7 +29,12 @@ repos:
     rev: v1.5.0
     hooks:
       - id: detect-secrets
-        args: [--baseline, .secrets.baseline]
+        # Embedded notebook figures are base64 PNG data, not credentials; code is still scanned.
+        args:
+          - --baseline
+          - .secrets.baseline
+          - --exclude-lines
+          - '^\s*"image/png": "'
         exclude: ^uv\.lock$
 
   # Keep outputs (learners read lessons on GitHub) but strip noisy metadata.
