@@ -24,17 +24,22 @@ glosario crece con cada tema.
 | Espacio latente | Latent space | Español |
 | Explosión del gradiente | Exploding gradient | Español |
 | Filtro / kernel | Filter / kernel | "Filtro"; "kernel" en el código |
+| Frontera de decisión | Decision boundary | Español |
 | Fuga de datos | Data leakage | Español |
 | Función de activación | Activation function | Español |
 | Función de pérdida | Loss function | Español |
 | Generador / discriminador | Generator / discriminator | Español |
 | Grafo computacional | Computational graph | Español |
 | Hiperparámetro | Hyperparameter | Español |
+| Linealmente separable | Linearly separable | Español |
 | Lote | Batch / mini-batch | "Lote"; "batch" también se acepta |
 | Memoria de corto y largo plazo | Long short-term memory (LSTM) | Sigla LSTM |
+| Neurona artificial | Artificial neuron | Español |
 | Normalización por lotes | Batch normalization | Inglés |
+| Perceptrón | Perceptron | Español |
 | Pesos | Weights | Español |
 | Política | Policy | Español |
+| Preactivación | Pre-activation | Español |
 | Recompensa | Reward | Español |
 | Red generativa adversaria | Generative adversarial network (GAN) | Sigla GAN |
 | Red neuronal | Neural network | Español |
