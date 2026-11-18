@@ -1,0 +1,46 @@
+default_install_hook_types: [pre-commit, commit-msg]
+default_stages: [pre-commit]
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      # LICENSE-CONTENT is the official Creative Commons text and must stay byte-identical.
+      - id: trailing-whitespace
+        exclude: ^LICENSE-CONTENT$
+      - id: end-of-file-fixer
+        exclude: ^LICENSE-CONTENT$
+      - id: check-yaml
+      - id: check-toml
+      - id: check-merge-conflict
+      - id: detect-private-key
+      # Lessons keep their outputs, so the limit is higher than in a code-only repo.
+      - id: check-added-large-files
+        args: ["--maxkb=1500", "--enforce-all"]
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.17.5
+    hooks:
+      - id: ruff-check
+        args: [--fix]
+      - id: ruff-format
+
+  - repo: https://github.com/Yelp/detect-secrets
+    rev: v1.5.0
+    hooks:
+      - id: detect-secrets
+        args: [--baseline, .secrets.baseline]
+        exclude: ^uv\.lock$
+
+  # Keep outputs (learners read lessons on GitHub) but strip noisy metadata.
+  - repo: https://github.com/kynan/nbstripout
+    rev: 0.9.1
+    hooks:
+      - id: nbstripout
+        args: [--keep-output, --keep-count]
+
+  - repo: https://github.com/compilerla/conventional-pre-commit
+    rev: v4.4.0
+    hooks:
+      - id: conventional-pre-commit
+        stages: [commit-msg]

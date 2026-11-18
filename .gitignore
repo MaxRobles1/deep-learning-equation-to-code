@@ -1,0 +1,37 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Data, trained models and training logs (downloaded or regenerated, never versioned)
+data/
+checkpoints/
+runs/
+logs/
+*.pt
+*.pth
+*.keras
+*.h5
+
+# Copyrighted or personal material (reference books, recordings, student work)
+*.pdf
+*.epub
+*.mp4
+*.mov
+private/
+
+# OS and editors
+.DS_Store
+.vscode/
+.idea/
+.claude/
