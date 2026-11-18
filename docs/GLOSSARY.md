@@ -7,9 +7,11 @@ glosario crece con cada tema.
 | Español | Inglés | Uso en el curso |
 |---|---|---|
 | Aprendizaje automático / aprendizaje máquina | Machine learning | "Machine learning" o "aprendizaje máquina" |
+| Aprendizaje no supervisado | Unsupervised learning | Español |
 | Aprendizaje por refuerzo | Reinforcement learning | Español |
 | Aprendizaje por transferencia | Transfer learning | Inglés |
 | Aprendizaje profundo | Deep learning | Español; "deep learning" también se acepta |
+| Aprendizaje supervisado | Supervised learning | Español |
 | Autocodificador | Autoencoder | Inglés |
 | Capa oculta | Hidden layer | Español |
 | Capa totalmente conectada | Fully connected layer | Español |
@@ -21,6 +23,7 @@ glosario crece con cada tema.
 | Descenso de gradiente estocástico | Stochastic gradient descent (SGD) | Español, con la sigla SGD |
 | Desvanecimiento del gradiente | Vanishing gradient | Español |
 | Época | Epoch | Español |
+| Error cuadrático medio | Mean squared error (MSE) | Español, con la sigla MSE |
 | Espacio latente | Latent space | Español |
 | Explosión del gradiente | Exploding gradient | Español |
 | Filtro / kernel | Filter / kernel | "Filtro"; "kernel" en el código |
@@ -31,11 +34,17 @@ glosario crece con cada tema.
 | Generador / discriminador | Generator / discriminator | Español |
 | Grafo computacional | Computational graph | Español |
 | Hiperparámetro | Hyperparameter | Español |
+| Ingeniería de características | Feature engineering | Español |
+| Inteligencia artificial | Artificial intelligence (AI) | Español, con la sigla IA |
 | Linealmente separable | Linearly separable | Español |
 | Lote | Batch / mini-batch | "Lote"; "batch" también se acepta |
+| Matriz de diseño | Design matrix | Español |
 | Memoria de corto y largo plazo | Long short-term memory (LSTM) | Sigla LSTM |
+| Mínimos cuadrados | Least squares | Español |
+| Modelo | Model | Español |
 | Neurona artificial | Artificial neuron | Español |
 | Normalización por lotes | Batch normalization | Inglés |
+| Parámetro | Parameter | Español |
 | Perceptrón | Perceptron | Español |
 | Pesos | Weights | Español |
 | Política | Policy | Español |
@@ -45,7 +54,9 @@ glosario crece con cada tema.
 | Red neuronal | Neural network | Español |
 | Red neuronal convolucional | Convolutional neural network (CNN) | Español, con la sigla CNN |
 | Red neuronal recurrente | Recurrent neural network (RNN) | Español, con la sigla RNN |
+| Regresión | Regression | Español |
 | Regularización | Regularization | Español |
+| Representación | Representation | Español |
 | Retropropagación | Backpropagation | Inglés: es el término más usado |
 | Sesgo | Bias | ⚠️ Dos significados: el término $\mathbf{b}$ de una capa y el sesgo del balance sesgo-varianza |
 | Sobreajuste | Overfitting | Español |
