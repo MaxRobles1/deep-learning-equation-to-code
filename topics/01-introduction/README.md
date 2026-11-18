@@ -12,7 +12,7 @@ Python básico, álgebra lineal (vectores y matrices) y derivadas.
 
 | | Lección | Estado |
 |---|---|---|
-| 1.1 | IA, machine learning y deep learning | Próximamente |
+| 1.1 | [IA, machine learning y deep learning](1.1-ai-ml-dl.ipynb) | Disponible |
 | 1.2 | [Conceptos generales de redes neuronales](1.2-neural-network-basics.ipynb) | Disponible |
 | 1.3 | Redes neuronales profundas | Próximamente |
 | 1.4 | Hiperparámetros y el balance entre sesgo y varianza | Próximamente |
