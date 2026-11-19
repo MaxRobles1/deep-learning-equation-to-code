@@ -44,11 +44,11 @@ Registro de las decisiones del proyecto: qué se decidió, qué alternativa se d
 - **Motivo:** paridad con Google Colab, para que las lecciones se comporten igual en local y
   en Colab. Todas las dependencias resuelven en 3.12.
 
-### D-007 · 2026-11-17 · Material calificable y grabaciones fuera del repositorio público
-- **Decisión:** las soluciones de exámenes y actividades calificadas, las grabaciones y los
-  datos de alumnos no se versionan aquí (`private/` está en `.gitignore`).
-- **Motivo:** publicar soluciones calificables anula la evaluación, y las grabaciones y datos
-  de alumnos son personales.
+### D-007 · 2026-11-17 · Material del instructor fuera del repositorio público
+- **Decisión:** las soluciones, el material del instructor y cualquier dato personal no se
+  versionan aquí (`private/` está en `.gitignore`).
+- **Motivo:** este repositorio es un recurso abierto para aprender; el material del instructor
+  y los datos personales no forman parte de él.
 
 ### D-008 · 2026-11-17 · Sitio web después
 - **Decisión:** primero el contenido en GitHub; el sitio web (Quarto o Jupyter Book en GitHub
@@ -64,7 +64,8 @@ Registro de las decisiones del proyecto: qué se decidió, qué alternativa se d
 - **Decisión:** los ejercicios de las lecciones se publican sin solución; las soluciones se
   guardan como material privado del instructor (`private/`, fuera de Git).
 - **Alternativa descartada:** publicar soluciones de práctica en notebooks aparte.
-- **Motivo:** los ejercicios por tema forman parte de la evaluación (trabajo continuo, 35 %).
+- **Motivo:** que cada persona resuelva los ejercicios por su cuenta, que es donde ocurre el
+  aprendizaje; las soluciones quedan como material del instructor.
 
 ### D-011 · 2026-11-18 · Cada fórmula se explica después de escribirla
 - **Decisión:** toda fórmula va seguida de "Donde", "Qué hace" y "Para qué se usa"; las que
@@ -72,3 +73,8 @@ Registro de las decisiones del proyecto: qué se decidió, qué alternativa se d
   ([STYLE_GUIDE.md](STYLE_GUIDE.md)). Las lecciones no indican tiempo estimado.
 - **Motivo:** una fórmula sin explicación solo sirve a quien ya la entiende. El tiempo de
   lectura es subjetivo, y el de ejecución ya lo garantiza el CI (menos de 5 minutos).
+
+### D-012 · 2026-11-19 · Sin información administrativa del curso en el repositorio
+- **Decisión:** el repositorio no incluye ponderaciones, exámenes, reglas de entrega ni
+  logística de las sesiones; esa información se comparte por los canales del curso.
+- **Motivo:** el repositorio es un recurso para aprender, abierto a cualquier persona.

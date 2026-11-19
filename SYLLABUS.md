@@ -89,18 +89,9 @@ autónomos.
 - 10.3 Q-learning profundo (Deep Q-Network, DQN)
 - 10.4 Ejemplos de uso del aprendizaje por refuerzo profundo
 
-## Evaluación
+## Para ir más allá
 
-| Componente | Peso |
-|---|---|
-| Trabajo continuo: solución de ejercicios por tema | 35 % |
-| Tres actividades largas | 20 % |
-| Dos exámenes presenciales (obligatorios también en la modalidad virtual) | 15 % |
-| Exposición de un artículo o de un tema no visto en el curso (sin repetir tema ni artículo) | 30 % |
-
-Las sesiones se graban para quien no pueda asistir.
-
-### Temas sugeridos para la exposición
+Temas que este curso no cubre, cada uno con el artículo original como punto de partida:
 
 | Tema | Punto de partida |
 |---|---|
