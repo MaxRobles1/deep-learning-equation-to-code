@@ -6,6 +6,7 @@ glosario crece con cada tema.
 
 | Español | Inglés | Uso en el curso |
 |---|---|---|
+| Anchura | Width | Español |
 | Aprendizaje automático / aprendizaje máquina | Machine learning | "Machine learning" o "aprendizaje máquina" |
 | Aprendizaje no supervisado | Unsupervised learning | Español |
 | Aprendizaje por refuerzo | Reinforcement learning | Español |
@@ -49,11 +50,15 @@ glosario crece con cada tema.
 | Pesos | Weights | Español |
 | Política | Policy | Español |
 | Preactivación | Pre-activation | Español |
+| Profundidad | Depth | Español |
 | Recompensa | Reward | Español |
 | Red generativa adversaria | Generative adversarial network (GAN) | Sigla GAN |
 | Red neuronal | Neural network | Español |
 | Red neuronal convolucional | Convolutional neural network (CNN) | Español, con la sigla CNN |
+| Red neuronal poco profunda | Shallow neural network | Español |
+| Red neuronal profunda | Deep neural network | Español |
 | Red neuronal recurrente | Recurrent neural network (RNN) | Español, con la sigla RNN |
+| Región lineal | Linear region | Español |
 | Regresión | Regression | Español |
 | Regularización | Regularization | Español |
 | Representación | Representation | Español |
@@ -63,6 +68,7 @@ glosario crece con cada tema.
 | Subajuste | Underfitting | Español |
 | Tasa de aprendizaje | Learning rate | Español |
 | Tensor | Tensor | Español |
+| Teorema de aproximación universal | Universal approximation theorem | Español |
 | Unidad recurrente con compuertas | Gated recurrent unit (GRU) | Sigla GRU |
 | Varianza | Variance | Español |
 | — | Dropout | Inglés: no tiene traducción establecida |

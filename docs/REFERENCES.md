@@ -12,7 +12,9 @@ de partida para profundizar.
 - Cybenko, G. (1989). Approximation by superpositions of a sigmoidal function. *Mathematics of Control, Signals and Systems*, 2(4), 303–314.
 - Hornik, K., Stinchcombe, M. y White, H. (1989). Multilayer feedforward networks are universal approximators. *Neural Networks*, 2(5), 359–366.
 - Mitchell, T. M. (1997). *Machine Learning*. McGraw-Hill.
+- Montúfar, G., Pascanu, R., Cho, K. y Bengio, Y. (2014). On the number of linear regions of deep neural networks. *NeurIPS*.
 - LeCun, Y., Bengio, Y. y Hinton, G. (2015). Deep learning. *Nature*, 521, 436–444.
+- Telgarsky, M. (2016). Benefits of depth in neural networks. *COLT*.
 - Russell, S. y Norvig, P. (2021). *Artificial Intelligence: A Modern Approach* (4.ª ed.). Pearson.
 
 ## Tema 2 · Tensores y frameworks
