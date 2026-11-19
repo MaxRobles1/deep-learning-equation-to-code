@@ -18,7 +18,7 @@ probabilidad; lo indispensable se repasa dentro de cada tema.
 
 El recorrido va de la primera neurona a las arquitecturas que hoy sostienen la visión por
 computadora, el análisis de secuencias, los modelos generativos y el aprendizaje por
-refuerzo. El temario completo, la forma de evaluación y la bibliografía están en
+refuerzo. El temario completo y la bibliografía están en
 [SYLLABUS.md](SYLLABUS.md).
 
 ## Cómo se estudia cada tema
@@ -59,9 +59,9 @@ vez y no se guardan en el repositorio.
 topics/        un tema por carpeta, con sus lecciones y ejercicios
 src/           código compartido entre lecciones (implementaciones desde cero, gráficas, datos)
 tests/         pruebas del código compartido
-activities/    actividades largas
+activities/    actividades que integran varios temas
 docs/          notación, glosario español-inglés, guía de estilo y referencias
-SYLLABUS.md    temario, evaluación y bibliografía
+SYLLABUS.md    temario y bibliografía
 ```
 
 ## Referencias y derechos de autor

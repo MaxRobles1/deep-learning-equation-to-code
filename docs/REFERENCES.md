@@ -2,7 +2,7 @@
 
 Los libros del curso están en [SYLLABUS.md](../SYLLABUS.md). Aquí se reúnen los artículos
 originales donde nació cada idea: son la fuente que se cita en las lecciones y un buen punto
-de partida para las exposiciones.
+de partida para profundizar.
 
 ## Tema 1 · Introducción
 - McCulloch, W. S. y Pitts, W. (1943). A logical calculus of the ideas immanent in nervous activity. *Bulletin of Mathematical Biophysics*, 5(4), 115–133.
